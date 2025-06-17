@@ -7,7 +7,8 @@ on:
 jobs:
   hrbot:
     runs-on: ubuntu-latest
-
+    permissions:
+      pull-requests: write
     steps:
       - name: Drop HR wisdom
         uses: actions/github-script@v6
