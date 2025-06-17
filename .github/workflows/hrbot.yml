@@ -1,0 +1,40 @@
+name: HRBot-3000 Compliance Reminder
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  hrbot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Drop HR wisdom
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prUser = context.payload.pull_request.user.login;
+            const jobFormURL = "https://example.com/hr-form"; // ← Replace this
+
+            const message = [
+              `👀 Attention @${prUser}, This Is HRBot-3000`,
+              ``,
+              `📎 I noticed you submitted a PR to apply for a job. That's delightful.`,
+              ``,
+              `However, our HR overlords require you to also complete our sacred form:`,
+              `${jobFormURL}`,
+              ``,
+              `> 🧾 "GitHub PRs are not a valid method of job application." – Brenda, Head of Compliance, probably`,
+              ``,
+              `Please fill it out so we can legally talk to you. Resistance is futile. Paperwork is eternal.`,
+              ``,
+              `---`,
+              `![HR Compliance Seal](https://fakeimg.pl/200x40/?text=HR+Verified&font=lobster)`
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: message
+            });
