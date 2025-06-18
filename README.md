@@ -59,3 +59,12 @@ The more “you” your PR feels, the better.
 ---
 
 Ready to driving the shift within transport? Fork this repo and let’s go. 🛠️
+
+---
+
+## 🔐 Privacy Notice
+
+This is a public GitHub repository. Please do **not** include your full name, contact details, CV, or any confidential information in your pull request.
+
+We’ll reach out with a private, secure form if we’d like to proceed. If you’re unsure about anything, [open a discussion](../../discussions) or email us directly.
+
