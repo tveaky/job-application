@@ -1,13 +1,5 @@
 # 👋 Welcome to Our Job Application Repo
 
-```text
-__        __   _                           
-\ \      / /__| | ___ ___  _ __ ___   ___
- \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \
-  \ V  V /  __/ | (_| (_) | | | | | |  __/
-   \_/\_/ \___|_|\___\___/|_| |_| |_|\___|
-```
-
 Welcome to **Scania IT's dev-first job application experience**.
 
 We believe that applying for a job shouldn't feel like submitting a tax return.
@@ -28,7 +20,7 @@ This repo lets you apply for one of our open developer roles by doing what you a
 1. **Fork this repo** (top right corner)
 2. **Copy the template** from [`apply-template/YOUR_APPLICATION.md`](apply-template/YOUR_APPLICATION.md)
 3. **Paste it into** a new file in `applications/your-name.md`  
-   Example: `applications/tobias-viklund.md`  
+   Example: `applications/firstname-lastname.md`  
    Then fill it out and submit a pull request!
 
 That’s it. 🎉
@@ -66,4 +58,4 @@ The more “you” your PR feels, the better.
 
 ---
 
-Ready to build the future with us? Fork this repo and let’s go. 🛠️
+Ready to driving the shift within transport? Fork this repo and let’s go. 🛠️
