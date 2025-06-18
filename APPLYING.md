@@ -2,7 +2,7 @@
 
 ## 👋 Welcome, Developer!
 
-So you're thinking about joining Scania. Amazing!
+So you're thinking about joining us. Amazing!
 
 This file explains how to apply for a role here *via pull request* — just like contributing to an open-source project. No resumes, no cover letters. Just Markdown and Git.
 

@@ -1,6 +1,6 @@
 # 👋 Welcome to Our Job Application Repo
 
-Welcome to **Scania IT's dev-first job application experience**.
+Welcome to **Our dev-first job application experience**.
 
 We believe that applying for a job shouldn't feel like submitting a tax return.
 
